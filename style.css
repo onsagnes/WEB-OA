@@ -53,3 +53,29 @@ body {
   nav:has(.active) a:hover {
     opacity: 1;
   }
+  @media (max-width: 600px) {
+    body {
+      margin: 20px;
+    }
+  
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px 10px;
+    }
+  
+    nav .home {
+      margin-right: 0;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    nav a {
+      font-size: 14px;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
