@@ -1,12 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f0e8;
-    color: #333333;
+    background-color: #ffffff;
+    color: #000000;
     text-align: left;
     margin: 40px;
  }
   
-  h1 { color: #2f1604; 
+  h1 { color: #000000; 
  }
   p { font-size: 20px;
  }
+ nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  nav .home {
+    margin-right: auto;
+    font-weight: bold;
+  }
