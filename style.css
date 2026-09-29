@@ -67,7 +67,7 @@ body {
     nav .home {
       margin-right: 0;
       width: 100%;
-      align-items: flex-end;
+      align-items: flex-start;
       margin-bottom: 1em;
     }
   
