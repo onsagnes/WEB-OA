@@ -10,13 +10,46 @@ body {
  }
   p { font-size: 20px;
  }
- nav {
+ html {
+    overflow-y: scroll;
+  }
+  
+  nav {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+  }
+  nav a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav a::after {
+    content: attr(data-text);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
   }
   
   nav .home {
     margin-right: auto;
     font-weight: bold;
+  }
+  
+  nav .active {
+    font-weight: bold;
+  }
+
+  nav a {
+    transition: opacity 0.2s;
+  }
+  
+  nav:has(.active) a:not(.active) {
+    opacity: 0.5;
+  }
+  
+  nav:has(.active) a:hover {
+    opacity: 1;
   }
