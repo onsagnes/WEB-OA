@@ -80,3 +80,12 @@ body {
     max-width: 100%;
     height: auto;
   }
+
+  .hero-gif {
+    display: block;
+    margin: 40px auto;
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+  }
