@@ -89,3 +89,60 @@ body {
     height: auto;
     mix-blend-mode: multiply;
   }
+  .list {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: left;
+  }
+  
+  .list h1,
+  .list h2 {
+    font-size: inherit;
+    font-weight: bold;
+    letter-spacing: normal;
+    margin: 40px 0 15px;
+  }
+  
+  .list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  
+  .bio h1 {
+    margin-top: 0;
+  }
+  
+  .bio .role {
+    font-size: inherit;
+    font-weight: bold;
+    margin: 0 0 25px;
+  }
+  
+  .bio p {
+    margin: 0 0 15px;
+    line-height: 1.4;
+  }
+  
+  .bio .contact {
+    margin-top: 25px;
+  }
+  
+  .bio a {
+    color: inherit;
+  }
+  
+  .section-photo {
+    margin: 25px 0;
+  }
+  
+  .section-photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
