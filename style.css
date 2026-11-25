@@ -91,7 +91,7 @@ body {
   }
   .list {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 40px 0;
     text-align: left;
   }
   
@@ -100,7 +100,7 @@ body {
     font-size: inherit;
     font-weight: bold;
     letter-spacing: normal;
-    margin: 40px 0 15px;
+    margin: 40px 0 30px;
   }
   
   .list ul {
@@ -110,7 +110,7 @@ body {
   }
   
   .list li {
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     line-height: 1.4;
   }
   
@@ -125,8 +125,14 @@ body {
   }
   
   .bio p {
+    font-size: inherit;
     margin: 0 0 15px;
     line-height: 1.4;
+    
+  }
+  
+  .bio p[lang] {
+    font-style: italic;
   }
   
   .bio .contact {
