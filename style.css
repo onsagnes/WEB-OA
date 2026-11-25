@@ -90,7 +90,6 @@ body {
     mix-blend-mode: multiply;
   }
   .list {
-    max-width: 900px;
     margin: 40px 0;
     text-align: left;
   }
@@ -101,6 +100,7 @@ body {
     font-weight: bold;
     letter-spacing: normal;
     margin: 40px 0 30px;
+    text-decoration: underline;
   }
   
   .list ul {
@@ -130,9 +130,10 @@ body {
     line-height: 1.4;
     
   }
-  
+
   .bio p[lang] {
     font-style: italic;
+    text-align: justify;
   }
   
   .bio .contact {
