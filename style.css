@@ -136,6 +136,11 @@ body {
     text-align: justify;
   }
   
+  @media (min-width: 700px) {
+    .bio p[lang] {
+    
+    }
+  }
   .bio .contact {
     margin-top: 25px;
   }
