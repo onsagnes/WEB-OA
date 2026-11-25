@@ -100,7 +100,6 @@ body {
     font-weight: bold;
     letter-spacing: normal;
     margin: 40px 0 30px;
-    text-decoration: underline;
   }
   
   .list ul {
@@ -138,9 +137,10 @@ body {
   
   @media (min-width: 700px) {
     .bio p[lang] {
-    
+      text-align: justify;
     }
   }
+
   .bio .contact {
     margin-top: 25px;
   }
