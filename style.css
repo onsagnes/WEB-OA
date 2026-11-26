@@ -125,7 +125,7 @@ body {
   
   .bio p {
     font-size: inherit;
-    margin: 0 0 15px;
+    margin: 0 0 0;
     line-height: 1.4;
     
   }
