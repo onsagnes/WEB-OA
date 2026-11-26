@@ -53,28 +53,6 @@ body {
   nav:has(.active) a:hover {
     opacity: 1;
   }
-  @media (max-width: 600px) {
-    body {
-      margin: 20px;
-    }
-  
-    nav {
-      flex-wrap: wrap;
-      justify-content: flex-start ;
-      gap: 3px 5px;
-    }
-  
-    nav .home {
-      margin-right: 0;
-      width: 100%;
-      align-items: flex-start;
-      margin-bottom: 1em;
-    }
-  
-    nav a {
-      font-size: 17px;
-    }
-  }
   
   img {
     max-width: 100%;
@@ -151,4 +129,32 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      margin: 20px;
+    }
+  
+    nav {
+      flex-wrap: wrap;
+      justify-content: flex-start ;
+      gap: 3px 5px;
+    }
+  
+    nav .home {
+      margin-right: 0;
+      width: 100%;
+      align-items: flex-start;
+      margin-bottom: 1em;
+    }
+  
+    nav a {
+      font-size: 17px;
+    }
+    
+    .list li {
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
   }
