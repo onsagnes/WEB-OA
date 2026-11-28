@@ -110,7 +110,7 @@ body {
 
   .bio p[lang] {
     font-style: italic;
-    text-align: justify;
+
   }
 
   .bio .contact {
@@ -152,5 +152,11 @@ body {
     nav a {
       font-size: 17px;
     }
+
+    .list li {
+      font-size: 13px;
+     
+    }
+      
 
   }
